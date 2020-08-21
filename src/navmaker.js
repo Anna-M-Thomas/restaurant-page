@@ -7,7 +7,7 @@ navDiv.classList.add("menu");
 container.prepend(navDiv);
 
 const img = document.createElement("img");
-img.src = "../src/img/fish2_blue.png";
+img.src = "img/fish2_blue.png";
 img.setAttribute("id", "fishie-pic");
 
 const header = document.createElement("h1");
