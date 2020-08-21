@@ -7,11 +7,11 @@ const contactPage = () =>{
 	header.textContent = "Contact";
 
 	const img1 = document.createElement('img');
-	img1.src = "../src/img/satsuki2.jpg";
+	img1.src = "/img/satsuki2.jpg";
 	img1.width = 300;
 
 	const img2 = document.createElement('img');
-	img2.src = "../src/img/building_sakanaya.png";
+	img2.src = "/img/building_sakanaya.png";
 
 	const contactInfo = document.createElement('p');
 	contactInfo.textContent = "Address: 2-1 Suzukocho, Kamaishi, Iwate 026-0031 Phone: 0555-55-5555 Email: meow@fishie.com";
